@@ -1,0 +1,189 @@
+body{
+   font-size: 13px;
+   font-family: arial;
+   color: #333;
+}
+#header{
+    background: #222;
+}
+#logo,#search, #cart{
+   height: 60px;
+}
+
+#logo button{
+   background: #fff;
+   float: right;
+   margin-top: 10px;
+}
+#search {
+   padding-top: 10px;
+}
+
+#search input, #search button{
+   border: none;
+   height: 30px;
+}
+#search input{
+   padding: 0 10px;
+   width: 280px;
+   border-radius: 3px 0 0 3px;
+}
+#search button{
+   padding: 0 10px;
+   border-radius: 0 3px 3px 0;
+   background: #eb1f27;
+   color: #fff;
+}
+#cart a, #cart span{
+   color: #fff;
+}
+#cart{
+   padding-top: 10px;
+   text-align: right;
+}
+#cart a{
+   text-decoration: none;
+}
+#cart span{
+   
+   display:inline-block;
+   background: #eb1f27;
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+   text-align: center;
+   border-radius:100%;
+}
+
+#body{
+   background: #e7ecf4;
+}
+#menu{
+   margin-bottom: 0;
+}
+#body ul{ 
+   background: #eb1f27;
+   list-style-type: none;
+   padding-left: 0;
+   overflow: hidden;
+   margin-bottom: 0;
+}
+
+.menu-item{
+   float: left;
+   height: 40px;
+   line-height: 40px;
+   padding:0 15px;
+   border-right: solid 1px #c60a11;
+}
+
+.menu-item:hover{
+  background: #d20e09;
+}
+.menu-item>a{
+   color: #fff;
+   text-decoration: none;
+}
+
+h3{
+
+   font-family: arial;
+   font-size: 18px;
+}
+
+.banner-item {
+   margin-top: 10px;
+}
+#slider{
+   margin-top: 10px;
+}
+#products{
+   margin-top: 10px;
+}
+.product-list{
+   margin: 0 -5px -10px;
+}
+.product-item {
+   padding: 5px;
+}
+.product-item-inner{
+  padding: 20px;
+  text-align: center;
+}
+.product-item-inner img{
+   height: 230px;
+   width: 180px;
+}
+.product-item-inner a{
+   color: #333;
+   font-size: 18px;
+   font-family: arial;
+}
+.product-item-inner span{
+   color:#eb1f27;
+   font-weight: bold;
+}
+#body {
+   padding-bottom: 30px;
+}
+#footer-top{
+   padding-top: 25px;
+}
+#address h3, 
+#services h3,
+#hotline h3{
+   border-bottom: solid 1px #333;
+   padding-bottom: 15px;
+   margin-bottom: 11px;
+}
+#footer-bottom{
+   background: #1d1e24;
+   padding: 15px;
+}
+#footer-bottom p{
+   color: #a1b1bc;
+   margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media (max-width: 768px){
+   #cart{
+    text-align: left;
+   }
+   .menu-item{
+    float: none;
+    border: none;
+    border-bottom: solid 1px #c60a11;
+   }
+   #slider{
+    display: none;
+   }
+ }
+
+
+ /* <= 992px */
+ @media (max-width: 992px){
+     #banner{
+      display: none;
+     }
+
+ }
+ /* not mobile >= 768px */
+ @media (min-width: 768px){
+   #logo button{
+      display: none;
+   }
+   #menu{
+      display: block;
+   }
+ }
+
